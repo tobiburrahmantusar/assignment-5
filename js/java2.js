@@ -15,5 +15,5 @@ document.getElementById('donation-2')
                document.getElementById("myBalance").innerText = myNewBalance;
                document.getElementById("feni-donation-money").innerText = newFeniDonation;
           }
-
+          alert("Congratulations!");
     })

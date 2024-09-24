@@ -15,5 +15,5 @@ document.getElementById('donation-3')
                document.getElementById("myBalance").innerText = myNewBalance;
                document.getElementById("quota-donation").innerText = newQoutaDonation;
           }
-
+          alert("Congratulations!");
     })
