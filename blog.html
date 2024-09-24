@@ -7,22 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-<style>
-  .body{
-    font-family: "Lexend", sans-serif;
-  }
-</style>
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/762679efb7.js" crossorigin="anonymous"></script>
+    <style>
+        .body{
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
 </head>
 <body class="bg-white">
     <main>
-        <header class="sticky top-0 z-[10] ">
+        <header class="sticky top-0 z-[10] md:m-20 ">
             <nav>
                 <div class="navbar bg-white ">
                     <div class="navbar-start">
-                      <a href="./index.html" class="btn btn-ghost text-base md:text-xl md:font-bold bg-lime-300 text-black">Blog</a>
+                      <a href="./index.html" class="btn btn-ghost text-base md:text-xl md:font-bold bg-lime-300 text-black">Home</a>
                     </div>
                     <div class="navbar-center">
                         <img src="./assets/logo.png" alt=""><h1 class="text-lg md:text-2xl text-black font-bold ml-3">Donate <br class=" md:hidden"> Bangladesh</h1>
@@ -34,12 +33,41 @@
             </nav>
             <section class="text-center p-10 bg-white">
               <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-lime-300 text-black px-20">Donation</button>
-              <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-lime-300 text-black px-20">History</button>
+              <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-lime-300 text-black px-20 mt-3">History</button>
           </section>
         </header>
 
-        <section>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aliquid laudantium voluptatibus soluta repudiandae perferendis voluptate, labore nulla at atque, laboriosam quo accusantium illo vero non a facilis sint necessitatibus? Iusto similique mollitia eligendi dignissimos perferendis impedit esse, suscipit est et velit sunt fuga nemo eum dicta magnam doloribus adipisci possimus voluptate eveniet atque dolores! Omnis assumenda pariatur est earum a. Soluta esse alias perspiciatis, veniam blanditiis quae ab aperiam adipisci dolor incidunt placeat accusamus recusandae vero itaque earum quaerat tempora consectetur hic. Voluptatem, beatae natus quibusdam quasi neque odio debitis! Dolorem ea labore quia ipsam voluptatem? In ad quidem consequatur architecto excepturi, pariatur facilis reiciendis sunt dolorum veritatis similique necessitatibus ullam deleniti iure nulla adipisci accusantium perferendis illum voluptatum aperiam a modi vel? Sequi, recusandae! Minima aliquam voluptates earum quisquam non porro hic tempore magnam perspiciatis repellendus molestias eum, odio dolores veniam nesciunt ad nisi corrupti neque, aut rem consequuntur ratione expedita. Officiis provident consequatur voluptas molestiae nemo! Facilis quia placeat neque explicabo, voluptatibus, impedit iure quae eum molestias est minus soluta eligendi saepe illum, fugiat voluptatem ratione optio? Nam amet nostrum reiciendis, repellendus voluptate quasi. In iure temporibus quae eos possimus ut tenetur vel nesciunt aperiam odit, accusantium vero modi esse ipsa enim velit dicta labore voluptas. Nisi, dolorum eaque? Esse voluptatibus, ipsam cupiditate quae qui eos fugit illo ex praesentium deserunt aliquam excepturi architecto natus voluptates id quaerat. Eius non maxime deserunt sunt minima, similique numquam molestias mollitia et doloremque sint voluptates, sequi nemo itaque hic corporis eveniet? Eaque, minima, repellat, eos assumenda eveniet molestias sapiente vero sed voluptas magni voluptatem numquam id dolorem! Fugiat autem inventore qui possimus error ratione alias, molestiae eos rem incidunt officia asperiores doloribus doloremque voluptates quam eligendi cupiditate excepturi! Mollitia perferendis voluptate aspernatur dolor earum itaque id quidem obcaecati sequi aperiam?</p>
+        <section class="p-20 md:p-40">
+            <div class="text-black text-5xl font-bold mb-5">
+                <h1>Important FAQ <i class="fa-regular fa-circle-question"></i></h1>
+            </div>
+            <div class="collapse collapse-arrow text-black border mb-5">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                <div class="collapse-content">
+                  <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow text-black border mb-5">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                <div class="collapse-content">
+                  <p>document.getElementById('id')</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow text-black border mb-5">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why it is useful?</div>
+                <div class="collapse-content">
+                  <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow text-black border mb-5">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+                <div class="collapse-content">
+                    <p>To manipulate an element's attributes in the DOM, use getAttribute(), setAttribute(), and removeAttribute(). For styles, use element.style.property = "value" to set inline styles, or manipulate classes using classList.add(), remove(), or toggle(). This allows dynamic control of attributes and styling.</p>
+                </div>
         </section>
     </main>
 </body>
