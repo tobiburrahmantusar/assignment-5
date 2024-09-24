@@ -1,7 +1,7 @@
 document.getElementById("donation-btn")
     .addEventListener('click', function(event){
         document.getElementById("history-show").classList.add('hidden');
-        document.getElementById("donation-show").classList.remove('hidden');
+        document.getElementById("donation-show").classList.remove('hidden' );
     })
 
 
