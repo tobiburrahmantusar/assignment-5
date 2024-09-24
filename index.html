@@ -31,14 +31,17 @@
                     </div>
                   </div>
             </nav>
+
             <section class="text-center p-10 bg-white">
-              <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-lime-300 text-black px-20">Donation</button>
-              <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-lime-300 text-black px-20 mt-3">History</button>
+              <button id="donation-btn" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-lime-300 text-black px-20">Donation</button>
+              <button id="history-btn" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-lime-300 text-black px-20 mt-3">History</button>
           </section>
         </header>
+        <section id="history-show">
 
-
-        <section class="p-10 md:p-20">
+        </section>
+        <section id="donation-show">
+          <section class="p-10 md:p-20">
             <div class="card lg:card-side min-h-screen border justify-center">
                 <div class="hero-content flex-col lg:flex-row ">
                   <img
@@ -75,7 +78,7 @@
                   <p class="py-6">
                     The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
                   </p>
-                  <input id="input-donation-money" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
+                  <input id="input-donation-money2" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
                   <div>                    
                   <button id="donation-2" class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
                   </div>
@@ -99,7 +102,7 @@
                 <p class="py-6">
                   The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
                 </p>
-                <input id="input-donation-money" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
+                <input id="input-donation-money3" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
                 <div>                    
                 <button id="donation-3" class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
                 </div>
@@ -107,9 +110,12 @@
             </div>
           </div>
     </section>
+        </section>
+
     </main>
     <script src="./js/java1.js"></script>
     <script src="./js/java2.js"></script>
     <script src="./js/java3.js"></script>
+    <script src="./js/java4.js"></script>
 </body>
 </html>

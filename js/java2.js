@@ -2,8 +2,8 @@ document.getElementById('donation-2')
     .addEventListener('click', function (event){
         event.preventDefault();
 
-          const addMoneytext = document.getElementById('input-donation-money').value;
-         const addMoneyNum = parseFloat(addMoneytext);
+          let addMoneytext = document.getElementById('input-donation-money2').value;
+         let addMoneyNum = parseFloat(addMoneytext);
           const feniDonationMoneyText = document.getElementById("feni-donation-money").innerText
          const feniDonationMoneyNum = parseFloat(feniDonationMoneyText);
          const myMoneytext = document.getElementById("myBalance").innerText
