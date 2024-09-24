@@ -27,7 +27,7 @@
                         <img src="./assets/logo.png" alt=""><h1 class="text-lg md:text-2xl text-black font-bold ml-3">Donate <br class="md:hidden">Bangladesh</h1>
                     </div>
                     <div class="navbar-end ">
-                      <img src="./assets/coin.png" alt=""><a class=" text-sm font-bold ml-2 ">5500 BDT</a>
+                      <img src="./assets/coin.png" alt=""><a class=" text-sm font-bold ml-2 "><span id="myBalance">5500</span> BDT</a>
                     </div>
                   </div>
             </nav>
@@ -46,15 +46,15 @@
                     class="max-w rounded-lg shadow-2xl" />
                   <div>
                     <div class=" flex items-center ">
-                      <div><img src="./assets/coin.png" alt=""></div><button class="btn btn-ghost">0 BDT</button>
+                      <div><img src="./assets/coin.png" alt=""></div><button class="btn btn-ghost"> <span id="noakhali-donation-money" >0 </span>  BDT</button>
                     </div>
                     <h1 class="text-3xl md:text-5xl font-bold text-black">Donate for Flood at Noakhali, Bangladesh</h1>
                     <p class="py-6">
                         The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
                     </p>
-                    <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
+                    <input id="input-donation-money" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
                     <div>                    
-                    <button class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
+                    <button id="donation-1" class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
                     </div>
                   </div>
                 </div>
@@ -69,15 +69,15 @@
                   class="max-w rounded-lg shadow-2xl" />
                 <div>
                   <div class=" flex items-center ">
-                    <div><img src="./assets/coin.png" alt=""></div><button class="btn btn-ghost">660 BDT</button>
+                    <div><img src="./assets/coin.png" alt=""></div><button class="btn btn-ghost"><span id="feni-donation-money">600</span> BDT</button>
                   </div>
                   <h1 class="text-3xl md:text-5xl font-bold text-black">Donate for Flood Relief in Feni, Bangladesh</h1>
                   <p class="py-6">
                     The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
                   </p>
-                  <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
+                  <input id="input-donation-money" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
                   <div>                    
-                  <button class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
+                  <button id="donation-2" class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@
       </section>
 
 
-      <section class="p-10 md:p-20">
+      <section class="p-10  md:p-20">
         <div class="card lg:card-side min-h-screen border justify-center">
             <div class="hero-content flex-col lg:flex-row ">
               <img
@@ -93,21 +93,23 @@
                 class="max-w rounded-lg shadow-2xl" />
               <div>
                 <div class=" flex items-center">
-                  <div><img src="./assets/coin.png" alt=""></div><button class="btn btn-ghost">2400 BDT</button>
+                  <div><img src="./assets/coin.png" alt=""></div><button class="btn btn-ghost"><span id="quota-donation">2400</span> BDT</button>
                 </div>
                 <h1 class="text-3xl md:text-5xl font-bold text-black">Aid for Injured in the Quota Movement</h1>
                 <p class="py-6">
                   The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
                 </p>
-                <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
+                <input id="input-donation-money" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full  max-w-sx bg-white" />
                 <div>                    
-                <button class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
+                <button id="donation-3" class="btn btn-block mt-5 bg-lime-300 text-black">Donate Now</button>
                 </div>
               </div>
             </div>
           </div>
     </section>
     </main>
-    <script src="./java.js"></script>
+    <script src="./js/java1.js"></script>
+    <script src="./js/java2.js"></script>
+    <script src="./js/java3.js"></script>
 </body>
 </html>
